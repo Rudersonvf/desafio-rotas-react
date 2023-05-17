@@ -1,0 +1,10 @@
+.prod-nav-container {
+    width: 100%;
+    height: 60px;
+    background-color: var(--color-bg-tertiary);
+    padding: 20px;
+}
+
+.prod-nav-container ul {
+    color: var(--color-font-secondary);
+}

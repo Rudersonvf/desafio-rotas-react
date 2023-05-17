@@ -4,7 +4,7 @@
 
     --color-bg-primary: #FFF;
     --color-bg-secondary: #2D28FF;
-    --color-bg-tertiary: #6F6F6F;
+    --color-bg-tertiary: #C7C7C7;
     --color-font-primary: #FFF;
     --color-font-secondary: #000;
 }
@@ -39,3 +39,11 @@ main {
     max-width: 960px;
     margin: 0 auto;
   }
+
+  .fw-400 {
+    font-weight: 400;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
