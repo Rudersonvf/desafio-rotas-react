@@ -1,11 +1,17 @@
 import { useState } from 'react'
-import viteLogo from '/vite.svg'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <h1>Hello Word!</h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />}>
+
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
